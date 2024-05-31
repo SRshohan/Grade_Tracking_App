@@ -8,3 +8,4 @@ class grade:
         components = {quizzes: [5, 25, 2]}"""
         def calculate_grade(self):
             
+            
