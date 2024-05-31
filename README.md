@@ -50,35 +50,40 @@ Run the app
 python main.py
 ```
 
-Usage
-Scanning Rubrics
+## Usage
+### Scanning Rubrics
 
-Navigate to the "Scan Rubrics" section.
-Take a picture of the rubric or upload an image file.
-The app will process the image and extract grading metrics.
-Tracking Class Expectations
+1. Navigate to the "Scan Rubrics" section.
+2. Take a picture of the rubric or upload an image file.
+3. The app will process the image and extract grading metrics.
 
-Go to the "Class Expectations" section.
-Input the expectations and goals for each class.
-The app will display a summary of the expectations.
-Calculating Current Grades
+### Tracking Class Expectations
 
-Navigate to the "Current Grades" section.
-Input your grades for various assessments (e.g., quizzes, assignments, exams).
-The app will calculate and display your current grade.
-Grade Improvement Insights
+1. Go to the "Class Expectations" section.
+2. Input the expectations and goals for each class.
+3. The app will display a summary of the expectations.
 
-Go to the "Grade Insights" section.
-The app will show what scores are needed on upcoming assessments to improve your grades.
-Project Structure
-/app - Contains routes and main application logic.
-/models - Defines data models for users and grades.
-/services - Includes OCR service and other utility functions.
-/db - Handles database operations.
-requirements.txt - Lists the dependencies required to run the app.
-main.py - The main entry point for the application.
-Contributing
+### Calculating Current Grades
+
+1. Navigate to the "Current Grades" section.
+2. Input your grades for various assessments (e.g., quizzes, assignments, exams).
+3. The app will calculate and display your current grade.
+
+### Grade Improvement Insights
+
+1. Go to the "Grade Insights" section.
+2. The app will show what scores are needed on upcoming assessments to improve your grades.
+
+## Project Structure
+1. /app - Contains routes and main application logic.
+2. /models - Defines data models for users and grades.
+3. /services - Includes OCR service and other utility functions.
+4. /db - Handles database operations.
+5. requirements.txt - Lists the dependencies required to run the app.
+6. main.py - The main entry point for the application.
+
+## Contributing
 We welcome contributions from the community! If you have any suggestions or find any bugs, please open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
